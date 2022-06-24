@@ -1,0 +1,41 @@
+.updateroot{
+    background-color: #232F3F;
+    max-width: 100% !important;
+    row-gap: 3rem !important;
+}
+
+.updatelabel{
+    color: white;
+}
+
+.updatelinks{
+    composes: lg_grid-cols-8 from global;
+    composes: lg_justify-self-center from global;
+    width: 80%;
+}
+
+.footerLogo{
+    composes: lg_grid-cols-2 from global;
+    width: 30%;
+    composes: lg_justify-self-center from global;
+    composes: gap-xs from global;
+    composes: grid from global;
+    margin-bottom: 10px;
+}
+
+.boxBoundary{
+    composes: col-span-1 from global;
+    border: 1px solid #848688;
+    border-radius: 3px;
+    padding: 6px 18px 6px 8px;
+    font-size: 13px;
+    background-color:#232F3F;
+    color: white;
+    height: 33px;
+    width: 100px;
+}
+
+.logoGrid{
+    composes: col-span-1 from global;
+    margin-left: 150px;
+}

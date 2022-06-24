@@ -12,7 +12,7 @@ import Navigation from '@magento/venia-ui/lib/components/Navigation';
 import Routes from '@magento/venia-ui/lib/components/Routes';
 import ToastContainer from '@magento/venia-ui/lib/components/ToastContainer';
 import Icon from '@magento/venia-ui/lib/components/Icon';
-
+import globalCSS from "@magento/venia-ui/lib/index.module.css"
 
 import {
     AlertCircle as AlertCircleIcon,
@@ -125,6 +125,6 @@ App.propTypes = {
     unhandledErrors: array
 };
 
-// App.globalCSS = globalCSS;
+App.globalCSS = globalCSS;
 
 export default App;
