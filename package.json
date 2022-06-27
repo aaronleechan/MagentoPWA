@@ -28,7 +28,8 @@
     "@magento/venia-drivers": "src/drivers"
   },
   "dependencies": {
-    "@magento/pwa-buildpack": "~11.3.0"
+    "@magento/pwa-buildpack": "~11.3.0",
+    "country-flag-icons": "^1.5.5"
   },
   "devDependencies": {
     "@adobe/apollo-link-mutation-queue": "~1.0.2",

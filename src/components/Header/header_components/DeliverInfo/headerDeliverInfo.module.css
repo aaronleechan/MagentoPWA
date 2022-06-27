@@ -1,0 +1,14 @@
+.deliver_container{
+    composes: flex-col from global;
+}
+
+.flow_row{
+    composes: grid from global;
+    composes: grid-rows-1 from global;
+    composes: grid-flow-col from global;
+}
+
+.small_textPos{
+    margin-bottom: -10px;
+    margin-left: 18px;
+}

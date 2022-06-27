@@ -1,0 +1,7 @@
+.container input{
+    width: 700px;
+    height: 100%;
+    font-size: 28px;
+    border: 1px solid black;
+    border-radius: 4px;
+}

@@ -1,0 +1,51 @@
+.container{
+    composes: flex from global;
+    composes: flex-row from global;
+    composes: flex-wrap from global;
+    composes: h-14 from global;
+    composes: gap-4 from global;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.small_text{
+    font-size: 13px;
+}
+
+.highlight_text{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logo{
+    composes: basic-1/4 from global;
+    composes: h-14 from global;
+    margin-right: 10px;
+}
+
+.search_container{
+    background-color: green;
+    composes: col-span-10 from global;
+    composes: h-14 from global;
+}
+
+.flag{
+    background-color: grey;
+    composes: col-span-2 from global;
+}
+
+.signInUser{
+    background-color: blue;
+    composes: col-span-2 from global;
+}
+
+.returnOrders{
+    background-color: green;
+    composes: col-span-2 from global;
+}
+
+.shoppingCart{
+    background-color: blue;
+    composes: col-span-2 from global;
+}
+

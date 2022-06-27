@@ -1,7 +1,7 @@
 import React from 'react';
 import defaultClasses from '@magento/venia-ui/lib/components/Main/main.module.css';
 import Footer from '../Footer';
-import Header from '@magento/venia-ui/lib/components/Header';
+import Header from '../Header';
 import { bool, shape, string } from 'prop-types';
 import { mergeClasses } from '@magento/venia-ui/lib/classify';
 import { useScrollLock } from '@magento/peregrine';

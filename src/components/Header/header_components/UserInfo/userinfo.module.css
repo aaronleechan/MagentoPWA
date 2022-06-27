@@ -1,0 +1,19 @@
+.arrow_down{
+    width: 0;
+    height: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #5D626A;
+    margin-top: 12px;
+    margin-left: 2px;
+}
+
+.grid_flow_col{
+    composes: grid from global;
+    composes: grid-rows-1 from global;
+    composes: grid-flow-col from global;
+}
+
+.small_textPos{
+    margin-bottom: -10px;
+}

@@ -1,0 +1,16 @@
+.itemContainer{
+    composes: grid from global;
+    composes: grid-rows-1 from global;
+    composes: grid-flow-row from global;
+}
+
+.cartContainer{
+    composes: grid from global;
+    composes: grid-col-1 from global;
+    composes: grid-flow-col from global;
+}
+
+.itemCount{
+    margin-left: 9px;
+    margin-bottom: -8px;
+}
