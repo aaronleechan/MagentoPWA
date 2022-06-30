@@ -1,20 +1,11 @@
 import React, { Fragment, Suspense } from 'react';
 import { shape, string } from 'prop-types';
-import { Link, Route } from 'react-router-dom';
-import Logo from '@magento/venia-ui/lib/components/Logo'
 import { useHeader } from '@magento/peregrine/lib/talons/Header/useHeader';
 import { useStyle } from '@magento/venia-ui/lib/classify';
 import defaultClasses from '@magento/venia-ui/lib/components/Header/header.module.css';
 import headerClasses from './header.module.css'
-import {
-    HeaderDeliverInfo,
-    LanguageSelectBox,
-    NavCart,
-    ReturnOrderInfo,
-    Search,
-    UserInfo
-} from './header_components';
-import CartTrigger from '@magento/venia-ui/lib/components/Header/cartTrigger';
+import { HeaderComponent } from './header_components';
+import { NavComponent } from './nav_components';
 
 const Header = props => {
     const {
@@ -31,14 +22,9 @@ const Header = props => {
 
     return (
         <Fragment>
-            <header className={headerClasses.container} data-cy="Header-root">
-                <Logo classes={{ logo: headerClasses.logo }} />
-                <HeaderDeliverInfo/>
-                <Search/>
-                <LanguageSelectBox/>
-                <UserInfo/>
-                <ReturnOrderInfo />
-                <NavCart />
+            <header className={headerClasses.container}>
+                <HeaderComponent/>
+                <NavComponent/>
             </header>
         </Fragment>
     );

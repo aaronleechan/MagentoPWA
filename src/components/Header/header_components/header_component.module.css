@@ -1,0 +1,17 @@
+.topHeadContainer{
+    composes: flex from global;
+    composes: flex-row from global;
+    composes: flex-wrap from global;
+    composes: h-14 from global;
+    composes: gap-2 from global;
+    composes: text-white from global;
+    background-color: #000000;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo{
+    composes: basic-1/4 from global;
+    composes: h-14 from global;
+    margin-right: 10px;
+}

@@ -1,0 +1,22 @@
+.navContainer{
+    composes: flex from global;
+    composes: flex-row from global;
+    composes: flex-wrap from global;
+    composes: h-10 from global;
+    composes: gap-4 from global;
+    composes: mb-2 from global;
+    composes: font-serif from global;
+    composes: text-sm from global;
+    composes: text-white from global;
+    composes: text-ellipsis from global;
+    background-color: #222F3E;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.navFlowCol{
+    composes: grid from global;
+    composes: grid-flow-col from global;
+    composes: gap-1 from global;
+    align-items: center;
+}

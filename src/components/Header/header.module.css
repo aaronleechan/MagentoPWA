@@ -1,5 +1,11 @@
 .container{
     composes: flex from global;
+    composes: flex-col from global;
+    composes: flex-wrap from global;
+}
+
+.topHeadContainer{
+    composes: flex from global;
     composes: flex-row from global;
     composes: flex-wrap from global;
     composes: h-14 from global;
@@ -9,12 +15,14 @@
 }
 
 .small_text{
-    font-size: 13px;
+    font-size: 12px;
+    height: 14px;
+    font-weight: 400;
 }
 
 .highlight_text{
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: 700;
 }
 
 .logo{

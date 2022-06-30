@@ -6,7 +6,7 @@ const ReturnOrderInfo = () =>{
     return(
         <Fragment>
             <div>
-                <div className={`${headerclasses.small_text} ${returnOrderInfoclasses.small_textPos}`}>Returns</div>
+                <div className={headerclasses.small_text}>Returns</div>
                 <div className={headerclasses.highlight_text}>& Orders</div>
             </div>
         </Fragment>
