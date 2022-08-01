@@ -10,7 +10,6 @@ import { useStyle } from '@magento/venia-ui/lib/classify';
 const Main = props => {
     const { children, isMasked } = props;
     const classes = useStyle(defaultClasses, props.classes);
-
     const rootClass = isMasked ? classes.root_masked : classes.root;
     const pageClass = isMasked ? classes.page_masked : classes.page;
 

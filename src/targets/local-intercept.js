@@ -5,6 +5,11 @@ module.exports = (targets) => {
         pattern: "/greeting/:who?",
         path: require.resolve("../components/GreetingPage/greetingPage.js"),
       });
+      routes.push({
+        name: "CreateAccountRoute",
+        pattern: "/create-account/",
+        path: require.resolve("../components/CreateAccountPage/createAccountPage.js")
+      })
       return routes;
     });
   };
